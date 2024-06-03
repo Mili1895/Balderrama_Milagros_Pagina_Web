@@ -29,3 +29,5 @@ function handleSubmit(event) {
     $buttonMailto.setAttribute('href','mailto:agmbr2@gmail.com?subject=${form.get(name)}$${form.get(email)}&body{form.get(Comentario)}')
     $buttonMailto.click()
 }
+
+

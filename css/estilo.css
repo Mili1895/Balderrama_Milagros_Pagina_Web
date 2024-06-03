@@ -133,13 +133,13 @@ section {
 
 .icons {
     position: absolute;
-    top: 85%;
-    padding: 10% 0;
+    top: 110%;
+    padding: 20% 5%;
     transform: translateY(-50%);
 }
 .icons i{
-    display: block;
-    margin: 30px 0;
+    display: inline-block;
+    margin: 0 30px;
     font-size: 25px;
     color: antiquewhite;
     transition: all .50s ease;
@@ -343,6 +343,8 @@ input::placeholder, textarea::placeholder {
     .navbar.open{ 
       right: 0;
     }
+
+    
 }
 
 @media (max-width: 680px){
@@ -351,3 +353,5 @@ input::placeholder, textarea::placeholder {
         height: auto;
     }
 }
+
+
