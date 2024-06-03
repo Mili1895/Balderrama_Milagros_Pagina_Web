@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/estilomarca.css">
     <title>MARCA</title>
 </head>
 <body>
@@ -17,5 +17,24 @@
             <a href="../Contacto/index.html" class="pagina">CONTACTO</a>
         </nav>
     </header>
+    <div class="texto">
+        <span class="text first-text">Bienvenido, </span>
+        <span class="text sec-text"> soy BHR</span>
+    </div>
+    <script>
+        const text = document.querySelector(".sec-text");
+        
+        const textLoad = () => {
+            setTimeout (() => {
+                text.textContent = "Diseñadora";
+            }, 4000);
+            setTimeout (() => {
+                text.textContent = "Animadora";
+            }, 8000);
+
+        }
+        textLoad (); 
+
+    </script>
 </body>
 </html>
