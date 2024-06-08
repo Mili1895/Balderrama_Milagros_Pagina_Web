@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" 
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="../css/estilocontacto.css">
     <title>CONTACTO</title>
 </head>
@@ -18,18 +20,18 @@
             <a href="index.html" class="pagina">CONTACTO</a>
         </nav>
     </header>
-    <form action="">
+    <form action="https://example.com/send-email" method="post">
         <h2>¡Comenta!</h2>
         <div class="input-group">
             <label for="name">Nombre</label>
-            <input type="text" name="name" id="name" placeholder="Nombre">
+            <input type="text" name="name" id="name" placeholder="Nombre" required>
             <label for="Email">Email</label>
-            <input type="email" name="email" id="email" placeholder="Email">
+            <input type="email" name="email" id="email" placeholder="Email" required>
             <label for="Comentario"></label>
-            <textarea name="Comentario" id="Comentario" cols="30" rows="5" placeholder="Deja tu opinion"></textarea>
+            <textarea name="Comentario" id="Comentario" cols="30" rows="5" placeholder="Deja tu opinion" required ></textarea>
             <div class="form-txt">
-                <a href="#">Politica de privacidad</a>
-                <a href="#">Terminos y condiciones</a>
+                <a href="#">Política de privacidad</a>
+                <a href="#">Términos y condiciones</a>
             </div>
             <input class="btn" type="submit" value="Enviar">
         </div>
