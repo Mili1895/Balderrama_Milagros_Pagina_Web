@@ -29,5 +29,8 @@ function handleSubmit(event) {
     $buttonMailto.setAttribute('href','mailto:agmbr2@gmail.com?subject=${form.get(name)}$${form.get(email)}&body{form.get(Comentario)}')
     $buttonMailto.click()
 }
-
+document.getElementById('menu-icon').addEventListener('click', function() {
+    var navbar = document.getElementById('navbar');
+    navbar.classList.toggle('active');
+});
 
