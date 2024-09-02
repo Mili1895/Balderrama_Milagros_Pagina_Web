@@ -1,0 +1,158 @@
+/* Medidas generales */
+* {
+      padding: 0;
+      margin: 0;  
+      box-sizing: border-box;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      list-style: none;
+      text-decoration: none;
+  }
+  
+  /* Fondo */
+  body {
+      min-height: 100vh;
+      background: linear-gradient(to right, darkblue, teal);
+  }
+  
+  /* Header diseño */
+  .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: transparent;
+      padding: 35px 12%;
+      z-index: 100;
+  }
+  
+  .header a {
+      color: antiquewhite;
+      text-decoration: none;
+  }
+  
+  .navbar {
+      display: flex;
+  }
+  
+  .navbar .pagina {
+      margin-left: 50px;
+      transition: all .55s ease;
+  }
+  
+  .pagina:hover {
+      color: purple;
+  }
+  
+  #menu-icon {
+      color: antiquewhite;
+      font-size: 30px;
+      z-index: 10001;
+      cursor: pointer;
+      display: none;
+  }
+  
+  /* Texto diseño */
+  .texto {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+  }
+  
+  .text {
+      color: antiquewhite;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 100px;
+      text-align: center;
+      margin-bottom: 10px;
+  }
+  
+  /* Icons diseño */
+  .icons {
+      display: flex;
+      justify-content: center;
+      padding: 20px 0;
+  }
+  
+  .icons a {
+      color: antiquewhite;
+      font-size: 24px;
+      margin: 0 10px;
+      text-decoration: none;
+  }
+  
+  /* Responsive */
+  @media (max-width: 1024px) {
+      .header {
+        display: flex;
+        padding: 50px 5%;
+    }
+}
+  @media (max-width: 768px) {
+      .header {
+            flex-direction: column;
+            padding: 50px 5%;
+        }
+    
+        .navbar {
+            display: none;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+    
+        .navbar.active {
+            display: flex;
+        }
+    
+        .navbar .pagina {
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+    
+        #menu-icon {
+            display: block;
+        }
+  
+      .text {
+          font-size: 50px;
+      }
+  }
+  
+  @media (max-width: 480px) {
+      .header {
+          flex-direction: column;
+      }
+  
+      .navbar {
+          display: none;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+          margin-top: 20px;
+      }
+  
+      .navbar .pagina {
+          margin-left: 10px;
+          margin-bottom: 0;
+      }
+  
+      .text {
+          font-size: 40px;
+      }
+  
+      .icons a {
+          font-size: 20px;
+          margin: 0 5px;
+      }
+  }
+    
+    
+    
+    
+    
+    
+   
+  
