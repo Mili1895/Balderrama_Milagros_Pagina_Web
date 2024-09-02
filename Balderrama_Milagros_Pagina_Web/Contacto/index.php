@@ -31,7 +31,7 @@
         </nav>
     </header>
     <section>
-        <form action="procesar_formulario.php" method="post">
+        <form id="loginaction" action="validacion.php" method="post" onsubmit="return validarFormulario">
             <h2>¡Comenta!</h2>
             <div class="input-group">
                 <label for="name">Nombre</label>
@@ -59,5 +59,25 @@
             navbar.classList.toggle('active');
         });
     </script>
+    <script>
+    function validarFormulario() {
+      var name = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+
+      if (name.trim() === "") {
+        alert("Por favor ingresa tu name.");
+        document.getElementById("name").style.borderColor = "red";
+        return false;
+      }
+
+      if (email.trim() === "") {
+        alert("Por favor ingresa tu email.");
+        document.getElementById("email").style.borderColor = "red";
+        return false;
+      }
+
+      return true; 
+    }
+  </script>
 </body>
 </html>
