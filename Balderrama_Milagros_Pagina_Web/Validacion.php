@@ -14,4 +14,5 @@ $contraseña = $_POST["email"];
   <p>Contraseña: <?php echo htmlspecialchars($email); ?></p>
   <a href="../index.php">Volver al inicio</a>
 </body>
+?>
 </html>

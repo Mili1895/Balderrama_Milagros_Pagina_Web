@@ -160,6 +160,17 @@ input:checked + label .description {
     text-decoration: none;
 }
 
+.card {
+    border-width: 100px;
+    transition: transform 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Sombra al pasar el cursor */
+}
+
+
 @media (max-width: 1024px) {
     .header {
         display: flex;

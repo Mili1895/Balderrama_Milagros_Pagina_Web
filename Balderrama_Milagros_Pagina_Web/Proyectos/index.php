@@ -8,6 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="/js/scrip.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <title>PROYECTOS</title>
 </head>
 <body>
@@ -29,7 +31,7 @@
     <div class="wrapper">
         <div class="contenedor">
             <input type="radio" name="slide" id="c1" checked>
-            <label for="c1" class="card">
+            <label for="c1" class="card border border-primary">
                 <div class="row">
                     <div class="icon">1</div>
                     <div class="description">
@@ -38,7 +40,7 @@
                 </div>
             </label>
             <input type="radio" name="slide" id="c2">
-            <label for="c2" class="card">
+            <label for="c2" class="card border border-success">
                 <div class="row">
                     <div class="icon">2</div>
                     <div class="description">
@@ -47,7 +49,7 @@
                 </div>
             </label>
             <input type="radio" name="slide" id="c3">
-            <label for="c3" class="card">
+            <label for="c3" class="card border border-warning">
                 <div class="row">
                     <div class="icon">3</div>
                     <div class="description">
@@ -56,7 +58,7 @@
                 </div>    
             </label>
             <input type="radio" name="slide" id="c4">
-            <label for="c4" class="card">
+            <label for="c4" class="card border border-danger">
                 <div class="row">
                     <div class="icon">4</div>
                     <div class="description">
