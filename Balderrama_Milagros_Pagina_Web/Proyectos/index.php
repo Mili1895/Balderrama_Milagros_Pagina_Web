@@ -10,6 +10,7 @@
     <script src="/js/scrip.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
     <title>PROYECTOS</title>
 </head>
 <body>
@@ -66,6 +67,28 @@
                     </div>
                 </div>
             </label>
+            <input type="radio" name="slide" id="c5">
+            <label for="c5" class="card border border-primary">
+                <div class="row">
+                    <div class="icon">5</div>
+                    <div class="description">
+                        <h4>Frog Game</h4>
+                        <a href="https://agmbr2gmailcom.itch.io/froggame" target="_blank">¡A JUGAR!
+                            
+                        </a>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c6">
+            <label for="c6" class="card border border-primary">
+                <div class="row">
+                    <div class="icon">6</div>
+                    <div class="description">
+                        <h4>Car Crash</h4>
+                        <a href="" target="_blank"> ¡A LANZAR!</a>
+                    </div>
+                </div>
+            </label>
         </div>
     </div>
     <div class="icons">
@@ -79,5 +102,6 @@
             navbar.classList.toggle('active');
         });
     </script>
+     
 </body>
 </html>

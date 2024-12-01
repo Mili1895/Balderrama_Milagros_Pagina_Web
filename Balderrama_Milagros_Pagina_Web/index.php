@@ -36,7 +36,7 @@
             <h4>Me llamo Milagros Balderrama y soy diseñadora e ilustradora.<br>Mi objetivo es transformar ideas en experiencias visuales impactantes, utilizando una combinación de habilidades técnicas y un ojo para el detalle. ¡Estoy emocionada de colaborar y darle vida a tus ideas!</h4>
             <br><br>
             <a href="#">Adelante</a>
-            <a href="#" class="ctaa"><i class="ri-arrow-drop-right-fill"></i>Bienvenido</a>
+            <a href="#" class="ctaa"><i class="ri-arrow-drop-right-fill"></i>Ingresa</a>
         </div>
         <div class="imagen">
             <img src="Imagenes/Diseñadora.png" alt="Diseñadora" width="700" height="1000">
