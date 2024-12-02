@@ -26,6 +26,7 @@
         <nav class="navbar" id="navbar">
             <a href="../Marca/index.php" class="pagina">MARCA</a>
             <a href="index.php" class="pagina">PROYECTOS</a>
+           
             <a href="../Contacto/index.php" class="pagina">CONTACTO</a>
         </nav>
     </header>
@@ -73,22 +74,21 @@
                     <div class="icon">5</div>
                     <div class="description">
                         <h4>Frog Game</h4>
-                        <a href="https://agmbr2gmailcom.itch.io/froggame" target="_blank">¡A JUGAR!
-                            
-                        </a>
+                        <a href="https://agmbr2gmailcom.itch.io/froggame" target="_blank">¡A JUGAR!</a>
                     </div>
                 </div>
             </label>
             <input type="radio" name="slide" id="c6">
             <label for="c6" class="card border border-primary">
                 <div class="row">
-                    <div class="icon">6</div>
+                    <div class="icon">5</div>
                     <div class="description">
                         <h4>Car Crash</h4>
-                        <a href="" target="_blank"> ¡A LANZAR!</a>
+                        <a href="../CarCrash/index.php" target="_blank">¡A JUGAR!</a>
                     </div>
                 </div>
             </label>
+           
         </div>
     </div>
     <div class="icons">
@@ -98,9 +98,9 @@
     </div>
     <script>
         document.getElementById('menu-icon').addEventListener('click', function() {
-            var navbar = document.getElementById('navbar');
-            navbar.classList.toggle('active');
-        });
+        var navbar = document.getElementById('navbar');
+        navbar.classList.toggle('active');
+    });
     </script>
      
 </body>

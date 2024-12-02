@@ -1,0 +1,164 @@
+/* Medidas generales */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Fondo */
+body {
+  min-height: 100vh;
+  background: linear-gradient(to right, darkblue, teal);
+ 
+}
+
+/* Header diseño */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: transparent;
+  padding: 35px 12%;
+  z-index: 100;
+}
+
+.header a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+
+
+
+Canvas {
+  width: 100%; /* Ocupa el 100% del ancho del contenedor */
+  height: auto; /* Ajusta la altura proporcionalmente */
+  display: block; /* Elimina espacios en blanco extra */
+  max-width: 800px; /* Tamaño máximo opcional */
+  margin: 0 auto; /* Centra el canvas horizontalmente */
+  padding-bottom: 50px;
+}
+
+.game-container {
+  width: 100%; /* O el porcentaje deseado */
+  max-width: 800px; /* Tamaño máximo para pantallas grandes */
+  height: auto;
+  margin: 0 auto 50px auto; /* Centrado horizontal */
+  text-align: center; /* Centrado opcional para otros elementos */
+}
+
+@media (max-width: 1024px) {
+  .header {
+      display: flex;
+      padding: 50px 5%;
+  }
+
+  .contenedor {
+      justify-content: center;
+  }
+
+  .card {
+      width: 80px;
+      margin: 0 10px;
+  }
+
+  input:checked + label {
+      width: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+      flex-direction: column;
+      padding: 50px 5%;
+  }
+
+  .navbar {
+      display: none;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+  }
+
+  .navbar.active {
+      display: flex;
+  }
+
+  .navbar .pagina {
+      margin-left: 10px;
+      margin-bottom: 10px;
+  }
+
+  #menu-icon {
+      display: block;
+  }
+  
+  .contenedor {
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .card {
+      width: 70%;
+      margin: 10px 0;
+  }
+
+  input:checked + label {
+      width: 50%;
+  }
+
+  input:checked + label .description {
+      width: 30%;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+      flex-direction: column;
+      padding: 50px 5%;
+  }
+
+  .navbar {
+      display: none;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+  }
+
+  .navbar.active {
+      display: flex;
+  }
+
+  .navbar .pagina {
+      margin-left: 10px;
+      margin-bottom: 0;
+  }
+
+  #menu-icon {
+      display: block;
+  }
+
+  .contenedor {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .card {
+      width: 50%;
+      margin: 5px 5px;
+  }
+
+  input:checked + label {
+      width: 40%;
+  }
+
+  input:checked + label .description {
+      width: 20%;
+  }
+}

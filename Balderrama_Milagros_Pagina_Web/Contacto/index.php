@@ -27,6 +27,7 @@
         <nav class="navbar" id="navbar">
             <a href="../Marca/index.php" class="pagina">MARCA</a>
             <a href="../Proyectos/index.php" class="pagina">PROYECTOS</a>
+            
             <a href="index.php" class="pagina">CONTACTO</a>
         </nav>
     </header>
